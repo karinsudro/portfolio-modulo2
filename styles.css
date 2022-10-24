@@ -1,0 +1,287 @@
+*{
+    font-family: 'PT Sans', sans-serif;
+    margin: 0px;
+    padding:0px;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:root{
+--bs-link-hover-color: #505050;
+--bs-link-color: #505050;
+}
+
+body{
+    background-image:url(images/painting3.jpg);
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    -ms-background-size:cover;
+    --opacidad-negro: 0.5;
+}
+
+/*--- NAVBAR ---*/
+nav.navbar{
+    position:fixed;
+    width:100%;
+    z-index:1200;
+    background-color: #fff;
+    box-shadow: 1px 6px 14px 2px #69014bbf;
+    -webkit-box-shadow: 1px 6px 14px 2px #af014bbf;
+    -moz-box-shadow: 1px 6px 14px 2px #af014bbf;
+    -ms-box-shadow: 1px 6px 14px 2px #af014bbf;
+}
+
+.logo-ap{
+  max-width: 6em;
+}
+
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: var(--bs-list-group-item-padding-y) var(--bs-list-group-item-padding-x);
+  /*color: var(--bs-list-group-color);*/
+  color: #505050;
+  /* text-decoration: none; */
+  background-color: var(--bs-list-group-bg);
+  /* border: var(--bs-list-group-border-width) solid var(--bs-list-group-border-color); */
+  border:none;
+}
+
+
+/*---LOGIN MODAL---*/
+
+.login-base{
+  margin-top: 0;
+}
+
+.armado-login{
+  margin-top: 15%;
+}
+.contact{
+  margin-top: 10% !important;
+}
+input::placeholder{
+  font-style: italic;
+  font-size: .9em;
+}
+
+/*---FIN NAVBAR---*/
+
+
+
+/*--- ARMADO ---*/
+
+/*---INTRO---*/
+.container-2{
+  width:100vh;
+  margin-top:10px;
+  padding:20px;
+  position:relative;
+  z-index:1080;
+  background-color:transparent;
+}
+.caratula-intro{
+  height: 100vh;
+  background-color: transparent !important;
+  border:none !important;
+  border-radius:none !important;
+  box-shadow:none !important;
+  -webkit-box-shadow:none !important;
+  -moz-box-shadow:none !important;
+}
+
+.intro{
+  text-shadow: #69014b 3px 2px 10px;
+}
+h1.intro{
+  font-size: 3rem;
+}
+h3.intro{
+  padding-top:30%;
+}
+/*---FIN INTRO---*/
+
+
+/*---DESARROLLO---*/
+
+/*---CONTENEDORES---*/
+.container{
+  width:70%;
+  margin-bottom:15px;
+  padding:20px;
+  position:relative;
+  z-index:1080;
+  background-color:#fff;
+  border:2px solid #69014b;
+  border-radius:0px 30px 0px 30px;
+  box-shadow: 1px 6px 14px 2px #69014bbf;
+  -webkit-box-shadow: 1px 6px 14px 2px #af014bbf;
+  -moz-box-shadow: 1px 6px 14px 2px #af014bbf;
+}
+
+/*---TEXTOS---*/
+.titulo-centrado{
+  text-align: center;
+}
+
+p{
+  font-size:1em;
+  text-align: justify;
+}
+
+p.texto-centrado{
+  text-align:center !important;
+}
+
+date{
+    font-size: .8em;
+    text-align:left;
+}
+
+/*---SECCION ABOUT ME---*/
+.bio-image-col{
+  align-items:center;
+}
+
+.bio-title{
+  text-align: center;
+  font-size:.75em;
+}
+
+/*---PROGRESS BARS---*/
+.progress{
+  height: 5px;
+  border-radius: 5px;
+}
+.progress-bar{
+  background-color: #c5068f;
+}
+.progress-bar-frontend{
+  background-color: #8b0666;
+}
+.progress-bar-backend{
+  background-color: #6ac61a;
+}
+.progress-bar-design{
+  background-color: #f7bf1a;
+}
+.progress-bar-language{
+  background-color: #1a85f7;
+}
+
+span {
+  display:block;
+  position: relative;
+  margin-top:20px;
+  font-size: .85em;
+  color: #888888;
+  line-height: 17px;
+  margin-bottom:5px;
+}
+/*--FIN PROGRESS BAR--*/
+
+/*--CARDS PROJECTS--*/
+.btn-project{
+  margin-left: 1rem;
+  margin-right:1rem;
+}
+.card-proy:hover{
+  transform: translate(-7px, -7px);
+  box-shadow: 1px 6px 14px 2px #69014bbf;
+  -webkit-box-shadow: 1px 6px 14px 2px #af014bbf;
+  -moz-box-shadow: 1px 6px 14px 2px #af014bbf;
+  transition: .5s;
+}
+
+/*--FOOTER--*/
+#footer{ 
+  background-color: #69014b;
+  margin-top:20px;
+  justify-content: center;
+  display: flex;
+}
+.datos-pie{
+  color:#fff;
+  text-align: center center;
+  padding-top: 5px;
+}
+
+
+/*---ADMIN---*/
+.container-fluid-modal{
+  text-align: left !important;
+  width: 75%;
+  margin-top: 7rem;
+  padding-left: 3rem;
+  background-color: transparent !important;
+  border:none !important;
+  border-radius:none !important;
+  box-shadow:none !important;
+  -webkit-box-shadow:none !important;
+  -moz-box-shadow:none !important;
+}
+.admin-siguiente{
+  margin-top: 3rem !important;
+}
+
+.admin{
+  margin-top: 20px;
+}
+
+.links{
+  text-decoration: none;
+}
+.yo-image{
+  width: 50%;;
+}
+
+.btn-guardar{
+  background-color: #2c9011;
+  color: #fff;
+}
+.btn-cancelar{
+  background-color: #ab0c0c;
+  color: #fff;
+}
+.fa-circle-plus:hover{
+  color:#f71aa6;
+}
+.fa-circle-check:hover{
+  color:#2c9011;
+}
+.fa-circle-xmark:hover{
+  color:#ab0c0c;
+}
+
+textarea::placeholder{
+  font-style: italic;
+  font-size: .9em;
+}
+
+
+/*---NAVEG LATERAL MENU---*/
+nav.vertical{
+  float: left;
+  margin-left: -1rem;
+  margin-top: 5rem;
+  align-items: center;
+  position: fixed;
+}
+li.vertical{
+  display:block;
+  margin:0;
+  writing-mode:vertical;
+  padding:1rem;
+  font-size:1.2rem;
+}
+a, a:hover{
+  text-decoration: none;
+}
+
